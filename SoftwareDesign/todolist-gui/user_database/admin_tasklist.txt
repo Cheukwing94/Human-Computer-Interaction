@@ -1,0 +1,10 @@
+
+qwe||2023-02-28||False
+asd||2023-02-28||False
+zxc||2023-02-28||False
+dsfgsdfg||2023-02-28||False
+sdghfdgh||2023-03-01||False
+
+sdfgsdfg||2023-03-02||True
+sdfgsdfgsdfg||2023-02-01||True
+sdfgsdfgdsfg||2023-02-02||True

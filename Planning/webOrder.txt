@@ -1,0 +1,58 @@
+1. Overview of Ordering website
+In the restaurant ordering, the main user would be customer, they will view the menu including picture and allergies inside the website, and see thire selction of dishes that they chosen. Menu may filter to several food types which make them view the food they're interested in. There would be a button for calling waiters. Also, customer can tracking their order after order food. It should include a payment page 
+The ordering page should generally using by mobile phone, so I will do the stuffs match to website and mobile as well (width).
+Doing as the teenager or 
+Client: the boss of the restaurant
+User: Customer
+
+2.1 Components
+User stories:
+    1. View menu
+        - display all the food include (1) price (2) allergies (3) picture (4) description
+        - filter the food in several type
+        
+    2. View selected dishes
+        - display how many did they chosen inside the menu
+        - add item into the cart
+        - remove the item that they don't need
+
+    3. cart items
+        - display how many did they chosen
+        - display the price of total
+
+    3. Payment / calling waiters
+        - Payment details
+        - Bill name
+        - Button of calling waiters (For Elder people)
+
+    4. Order tracking
+        - Status of order (recieve -> paid/unpaid -> preparing -> delivered)
+    
+2.2 Functionality
+    
+
+2.3 Interaction
+
+Task Analysis
+    1. View menu
+        - display all the food include (1) price (2) allergies (3) picture (4) description
+        - filter the food in several type
+        
+    2. View selected dishes
+        - display how many did they chosen inside the menu
+        - add item into the cart
+        - remove the item that they don't need
+
+    3. cart items
+        - display how many did they chosen
+        - display the price of total
+
+    3. Payment / calling waiters
+        - Payment details
+        - Bill name
+        - Button of calling waiters (For Elder people)
+
+    4. Order tracking
+        - Status of order (recieve -> paid/unpaid -> preparing -> delivered)
+
+    

@@ -1,0 +1,23 @@
+## Week 20
+I was starting to add the detail of food like adding more food items and add the image of the food into the `Food.js`. In order the picture is not professional, I editted the picture size to fit the food card. Also, I updated the layout of the food card to fit all the content of food.
+
+## Week 21
+I started to add some function to the ordering app. I created a map for storing the food item that customer selected and added to the cart which call `order`. It will push the order item to `order` when customer click the add button of the food. Also, I created to count the price automatically when customer added the item to the cart. In addition, I created a new software which is a patient diary app. The reason why I will create patient diary app is because there are dfferent type of patient like colorblind or elder people should have some special design to match Human Computer Interaction. I added all the component first and created a login page, register page and the navbar of the software.
+
+## Week 22
+I created a calendar for the patient diary app which for patient to mark down the event like some appointment. This calendar used the package of `react-big-calendar`. Then I started to created the third software which is a to-do-list GUI. The reason why I created this software is because all of the previous software is also a website. It is a good chance for me to create a different type of software for analysising about Human Computer Interaction. However, I set the base of GUI and decided to create GUI with python tkinter and did some layout of the to-do-list. I planed to set the layout of the to do list which include a input frame for user to enter the task, a empty frame for showing the task with checkbox, some button for add task, delete task and a calendar for user to select the date of task. In addition, I created some function for click the checkbox, add button and delete button and created a txt file, `tasklist.txt`,  for storing the task of each date. The txt file using the format of TASK||DATE. I will load the data to an array, `tasklist`, in the begining of system and save the task when user clicking the add button. For updating the task list when user select the other date, I created an array, `my_ref`, for store all the check button.
+
+## Week 23
+I created an undo buttton with a txt file, `undolist.txt`, to store the previous deleted task from user in the begining of week. However, I realized this undo button can just for the deleted task. So, I deleted the txt file and user an arraylist to store all the previous actions. In addition, I created a move button for user can move the incompleted task to the next day.  
+
+## Week 24
+I created a function of login and register. This functions are created a new gui interface for user to log in their account or create a new account. The login interface including username and password and some error message if the user enter incorrect information. The register interface included entering username and password and some error message if user didn't meet the requirment. Also, I created a txt file, `userlist.txt`, for storing the user login information. It will load the information and move to an array when the system start. In addition, I improve the to do list will show up the username of the user and using unique tasklist file, `USERNAME_tasklist.txt`.
+
+## week 25
+I started add function to the patient diary app. I restyled the layout of the app which can easier to use when using it by phone and created the layout of journal. Then, I add some function to verify the information in register page of the user entered is valid.
+
+## Week 26
+I restyled the navbar last week which change the nave bar name to just show the icone. However, this style will make the user misunderstanding, so I make the navbar can show the name when the mouse on the icon. If the user is using the phone, the navbar will show the name and icon at the same time which is more easier to use. In addition, considering if the patient have some issue of visual channal, I created a function for user can change the font size of word in symptoms page. In Journal page, I created a page to show all the journal user wrote before with date. In this page they can click to back to write journal page. In the setting page, I added three buttons which is the on or off button of notification, set the app color and the log out button. 
+
+## Week 27
+I started improving the first software, ordering page. I created functions for removing item from the cart, move the confirmed items to the order page and add notifications when user click to add the item to the cart and confirm the order from the cart. Notification is good for user to know what they are doing. 

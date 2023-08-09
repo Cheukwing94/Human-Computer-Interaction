@@ -1,0 +1,162 @@
+1. Overview of Shopping website
+In Shopping Spree, the items for sale will be clothing products, either of a single type (trousers, t-shirts, shoes, etc.) or of mixed types. You can decide on the items that will be available, but there should be at least 10 items that you can distinguish through their attributes (e.g. colour).
+Features:
+    - Clothing display: the system is able to display clothes with some associated metadata.
+    - Shopping cart: the user manages a shopping cart that is accessible at all times.
+    - Sorting, filtering and searching: the system is able to display items in different orders and according to several filters, including a search mechanism.
+
+2.1 Components
+    a) Clothing item
+        - name and date of creation
+        - representation and description, price, size (S, M and L) and up to three colours
+    b) Clothing display
+        - set of items currently on display
+        - navigating mechanism
+    c) Shopping cart
+        - set of items
+        - total price
+
+2.2 Functionality
+Clothing display
+the default is to display all the available items;
+there is a navigation mechanism that allows to browse through all the currently displayed items;
+it’s possible to check the details of each individual item;
+sorting will change the order of the displayed items;
+filtering and searching modify what is being displayed.
+
+Filter and search mechanisms
+sort items by date, price, colour, size;
+search items by name and description.
+
+Cart management
+add item to cart, with the possibility of adding several items at the same time;
+remove one or several items from the cart;
+show/hide the cart;
+the items are ordered as soon as the user confirms the purchase (assume that all the checkout, payment and delivery mechanisms are automatic).
+
+2.3 Interaction
+The interaction should be dynamic, only showing the available functionality at any time. Furthermore, the UI should always provide a clear indication of the current system status.
+The interaction should have the following features:
+clean UI presenting only the actions relevant to the current system status;
+whenever relevant, the system presents related items (you don’t need to create an algorithm for this, it’s all about the interaction);
+important actions require confirmation – Do you really want to empty the cart? – or an undo mechanism.
+You should design the interaction for a VR kit similar to the one you have tested in the labs. The interactions should be based on the possibilities that you have experienced.
+Task Analysis
+Tasks and subtasks (with their corresponding plans):
+(Plan number slightly arbitrary in this document - likely to be different to HTA diagram)
+
+Launching Shopping Spree:
+Launch Shopping Spree App
+Login/Create Account
+
+a) To login:
+- Input username
+- Input password
+- If wish to remain logged in:
+        Select “Stay logged in”
+- Confirm login
+
+b) To create account:
+- Input username
+- Input Password
+- Input email
+- Confirm create account
+- Verify email
+
+c) Plans:
+Plan 1.1 - to launch shopping spree:
+Launch app, login/create account
+
+Plan 1.1.1 - login; do login
+
+Plan 1.1.2 - creating account; do create account, then log in.
+
+Clothing Display:
+a)To view items:
+        Look at main items display
+b) To view more items:
+        Select “View More”/ Scroll/Swipe to load more items
+c) To view item details
+        Select item
+        Rotate item to observe closer
+d) To filter and/or search the display:
+        Open filter menu
+        Use filter and search plans
+        View all items (default) / Biggest Discounts (with discount %ages) default?
+        Rolling Wheel of Different Items on Sale (with the largest discounts on the wheel) right under
+        View item details
+        Filter/Search changes to display
+        Optional gesture controls (eg swipe hand from left to right to view at different angles or change size)
+
+
+Filter and Search Mechanisms:
+a) To search for an item:
+        Select search field
+        Input term to search
+        Confirm search input
+b) To filter items (by price, size, colour, date, biggest discount):
+        Open filter options menu
+        Select fields to filter by
+        Select price range
+        Select size
+        Select colour
+        Select date of creation range
+        Select sort by option (price high to low, price low to high, most popular, newest)
+c) To remove filters:
+        Unselect already selected filters
+d) To remove all filters:
+        Select “Remove all filters” 
+        Confirm filter inputs
+
+Plans:
+Plan 2.1 - Search for an item
+Select search, input term, confirm search.
+
+Plan 2.2 - Filter items
+Open filters, select filters, confirm filter inputs
+
+Plan 2.3 - can do 2.1 and 2.2 together.
+
+Shopping Cart Management
+
+a) Add item to shopping cart: 
+        If adding one item:
+            Select “quick-add to cart” (
+        If adding multiple items:
+            Select/Highlight items to add
+            Select “add items to cart”
+            Plus button for adding multiple of the same item
+            Remove item from shopping cart
+        If removing on item:
+            Select “Remove item” on item in cart
+        If removing multiple items:
+            Select/Highlight items to remove
+            Select “Remove items” 
+            Minus button for removing multiples of an item
+b) Undo remove item:
+        Select undo button
+        If emptying the cart:
+            Select “confirm” when shown “Do you really want to empty the cart?”
+            Hide shopping cart
+        If shopping cart is open:
+            Select “hide cart”
+            View shopping cart
+        If shopping cart is closed:
+            Select cart icon/”Show cart”
+            Confirm purchase
+            Select “Go to checkout”
+            Input Delivery Address
+            Select payment option
+        If by card:
+            Input card details
+        If by Paypal/Google:
+            Input login details
+            Confirm Payment
+            Select “Confirm order”
+
+Plans:
+Plan 3.1 Manage cart - add or remove item/s
+
+Plan 3.2 Order - do confirm purchase.
+
+
